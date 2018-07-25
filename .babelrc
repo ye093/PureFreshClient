@@ -1,0 +1,29 @@
+{
+    "presets": [
+        "env",
+        "stage-3",
+        "react"
+    ],
+    "plugins": [
+        "transform-decorators",
+        "transform-decorators-legacy",
+        "transform-react-jsx",
+        [
+            "import",
+            {
+                "libraryName": "antd",
+                "libraryDirectory": "es",
+                "style": true
+            }
+        ],
+        [
+            "transform-runtime",
+            {
+                "helpers": false,
+                "polyfill": true,
+                "regenerator": true,
+                "moduleName": "babel-runtime"
+            }
+        ]
+    ]
+}

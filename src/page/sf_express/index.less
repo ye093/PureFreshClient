@@ -1,0 +1,30 @@
+.html-container {
+    padding: 0;
+    margin: 0;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100mm;
+    height: 210mm;
+    border: 1px solid black;
+
+    .item1 {
+        height: 13mm;
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+
+    .item2 {
+        height: 20mm;
+        width: 100%;
+        
+        .barcode {
+            background: #ff00ff;
+            margin: 3mm 5mm 2mm 5mm;
+        }
+    }
+
+}

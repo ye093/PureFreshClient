@@ -1,0 +1,103 @@
+div,body{
+        margin: 0;
+        padding: 0;
+}
+
+.divider-top {
+    margin-top: 1mm;
+    border-top: 1px dashed;
+}
+.padding-top {
+    padding-top: 1mm;
+}
+.padding-bottom {
+    padding-bottom: 1mm;
+}
+.full-width {
+    width: 100%;
+}
+.min-size {
+    font-size: 80%;
+}
+
+.ticket-constainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-size: 15px;
+
+    .t_ct {
+        width: 100%;
+        border-top: 2px solid;
+        border-bottom: 2px dashed;
+        height: 20px;
+        line-height: 20px;
+        text-align: left;
+        font-size: 90%;
+        padding: 0.5mm 0;
+    }
+
+    .pfn {
+        width: 100%;
+        margin-top: 1.5mm;
+        font-size: 120%;
+        font-weight: bold;
+        text-align: center;
+    }
+    .ent_name {
+        width: 100%;
+        font-size: 100%;
+        text-align: center;
+    }
+    .pay_method {
+        width: 100%;
+        font-size: 120%;
+        text-align: center;
+    }
+
+    .order-body {
+        border-top: 1px dashed;
+        border-bottom: 1px dashed;
+        width: 100%;
+        padding: 5px 0;
+
+        .item-head {
+            font-size: 105%;
+            font-weight: bold;
+        }
+
+        .item-line {
+            font-size: 95%;
+        }
+
+        .items-table {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            div {
+                flex: 1;
+                text-align: center;
+            }
+        }
+    }
+    .sum {
+        margin-top: 1mm;
+        border-top: 1px dotted;
+        font-size: 110%;
+        font-weight: bold;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+
+        div {
+            padding-top: 3mm;
+            padding-right: 5mm;
+            padding-bottom: 1mm;
+        }
+    }
+    .addr {
+        font-size: 120%;
+        font-weight: bold;
+        padding-top: 2mm;
+    }
+}
